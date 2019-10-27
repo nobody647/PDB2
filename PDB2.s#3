@@ -6064,10 +6064,6 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <text x="129.54" y="124.46" size="1.778" layer="91">Misc. Switch connections</text>
 <text x="-66.04" y="254" size="1.778" layer="91">DC-DC converter stuff goes here!</text>
 <rectangle x1="-81.28" y1="243.84" x2="-66.04" y2="264.16" layer="91"/>
-<<<<<<< HEAD
-=======
-<text x="-76.2" y="297.18" size="1.778" layer="91">Switch these to mega-fit molex connnectors!!!!</text>
->>>>>>> 2fd9f063be06ece2847843ece31513017d67a22c
 </plain>
 <instances>
 <instance part="ARDUINO_DUE1" gate="G$1" x="-17.78" y="66.04" smashed="yes">
@@ -6194,15 +6190,9 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <instance part="P8" gate="-2" x="162.56" y="106.68" smashed="yes">
 <attribute name="NAME" x="165.735" y="106.045" size="1.778" layer="95" ratio="12"/>
 </instance>
-<<<<<<< HEAD
 <instance part="R4" gate="G$1" x="256.54" y="185.42" smashed="yes">
 <attribute name="NAME" x="252.73" y="186.9186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="252.73" y="182.118" size="1.778" layer="96"/>
-=======
-<instance part="R4" gate="G$1" x="297.18" y="190.5" smashed="yes">
-<attribute name="NAME" x="293.37" y="191.9986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="293.37" y="187.198" size="1.778" layer="96"/>
->>>>>>> 2fd9f063be06ece2847843ece31513017d67a22c
 </instance>
 <instance part="R5" gate="G$1" x="147.32" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="145.8214" y="100.33" size="1.778" layer="95" rot="R90"/>
@@ -6405,14 +6395,11 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <wire x1="152.4" y1="182.88" x2="152.4" y2="172.72" width="0.1524" layer="91"/>
 <label x="152.4" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-<<<<<<< HEAD
-=======
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="51"/>
 <wire x1="5.08" y1="55.88" x2="5.08" y2="45.72" width="0.1524" layer="91"/>
 <label x="5.08" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
->>>>>>> 2fd9f063be06ece2847843ece31513017d67a22c
 </net>
 <net name="RELAY2_CONTROL" class="0">
 <segment>
@@ -6420,14 +6407,11 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <wire x1="177.8" y1="182.88" x2="177.8" y2="167.64" width="0.1524" layer="91"/>
 <label x="177.8" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-<<<<<<< HEAD
-=======
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="49"/>
 <wire x1="7.62" y1="55.88" x2="7.62" y2="40.64" width="0.1524" layer="91"/>
 <label x="7.62" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
->>>>>>> 2fd9f063be06ece2847843ece31513017d67a22c
 </net>
 <net name="RELAY3_CONTROL" class="0">
 <segment>
@@ -6435,14 +6419,11 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <wire x1="203.2" y1="182.88" x2="203.2" y2="172.72" width="0.1524" layer="91"/>
 <label x="203.2" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-<<<<<<< HEAD
-=======
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="47"/>
 <wire x1="10.16" y1="55.88" x2="10.16" y2="35.56" width="0.1524" layer="91"/>
 <label x="10.16" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
->>>>>>> 2fd9f063be06ece2847843ece31513017d67a22c
 </net>
 <net name="RELAY4_CONTROL" class="0">
 <segment>
@@ -6450,14 +6431,11 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <wire x1="228.6" y1="182.88" x2="228.6" y2="167.64" width="0.1524" layer="91"/>
 <label x="228.6" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-<<<<<<< HEAD
-=======
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="45"/>
 <wire x1="12.7" y1="55.88" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
 <label x="12.7" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
->>>>>>> 2fd9f063be06ece2847843ece31513017d67a22c
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -6505,12 +6483,8 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 </net>
 <net name="ESTOP" class="0">
 <segment>
-<<<<<<< HEAD
 <wire x1="264.16" y1="175.26" x2="264.16" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="185.42" x2="264.16" y2="190.5" width="0.1524" layer="91"/>
-=======
-<wire x1="264.16" y1="175.26" x2="264.16" y2="190.5" width="0.1524" layer="91"/>
->>>>>>> 2fd9f063be06ece2847843ece31513017d67a22c
 <wire x1="264.16" y1="190.5" x2="264.16" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="208.28" x2="266.7" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="175.26" x2="266.7" y2="175.26" width="0.1524" layer="91"/>
@@ -6524,15 +6498,9 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <junction x="264.16" y="190.5"/>
 <wire x1="289.56" y1="190.5" x2="289.56" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<<<<<<< HEAD
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="185.42" x2="264.16" y2="185.42" width="0.1524" layer="91"/>
 <junction x="264.16" y="185.42"/>
-=======
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="289.56" y1="190.5" x2="292.1" y2="190.5" width="0.1524" layer="91"/>
-<junction x="289.56" y="190.5"/>
->>>>>>> 2fd9f063be06ece2847843ece31513017d67a22c
 </segment>
 </net>
 <net name="12V" class="0">
@@ -6579,15 +6547,9 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <label x="-71.12" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<<<<<<< HEAD
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="185.42" x2="251.46" y2="180.34" width="0.1524" layer="91"/>
 <label x="251.46" y="180.34" size="1.778" layer="95" rot="R180" xref="yes"/>
-=======
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="302.26" y1="190.5" x2="304.8" y2="190.5" width="0.1524" layer="91"/>
-<label x="304.8" y="190.5" size="1.778" layer="95" xref="yes"/>
->>>>>>> 2fd9f063be06ece2847843ece31513017d67a22c
 </segment>
 </net>
 <net name="ESTOP_SENSE" class="0">
@@ -6651,21 +6613,6 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <junction x="-73.66" y="269.24"/>
 </segment>
 </net>
-<<<<<<< HEAD
-<net name="DCDC_SWITCH" class="0">
-<segment>
-<pinref part="ARDUINO_DUE1" gate="G$1" pin="53"/>
-<wire x1="2.54" y1="55.88" x2="2.54" y2="50.8" width="0.1524" layer="91"/>
-<label x="2.54" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="-81.28" y1="236.22" x2="-71.12" y2="236.22" width="0.1524" layer="91"/>
-<label x="-81.28" y="236.22" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="-71.12" y1="236.22" x2="-71.12" y2="243.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-=======
->>>>>>> 2fd9f063be06ece2847843ece31513017d67a22c
 <net name="MODE_SENSE" class="0">
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="48"/>
@@ -6687,8 +6634,6 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <label x="-58.42" y="246.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<<<<<<< HEAD
-=======
 <net name="DCDC_CONTROL" class="0">
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="53"/>
@@ -6701,7 +6646,6 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <wire x1="-71.12" y1="236.22" x2="-71.12" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
->>>>>>> 2fd9f063be06ece2847843ece31513017d67a22c
 </nets>
 </sheet>
 </sheets>
